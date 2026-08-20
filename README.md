@@ -1,12 +1,12 @@
-# 📊 Customer Churn Detection using SQL
+# Customer Churn Detection using SQL
 
-## 📌 Project Overview
+##  Project Overview
 
 This project uses **SQL** to analyze customer data and identify patterns related to **customer churn**.
 
 The analysis focuses on customer demographics, subscription types, monthly charges, usage hours, support calls, satisfaction levels, payment methods, and churn status.
 
-## 🎯 Objectives
+##  Objectives
 
 * Calculate the total number of customers.
 * Identify the number of churned customers.
@@ -18,12 +18,12 @@ The analysis focuses on customer demographics, subscription types, monthly charg
 * Identify customers with frequent support calls.
 * Find customers who may have a higher risk of churn based on multiple factors.
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 * **SQL**
 * **MySQL**
 
-## 📂 Database Structure
+##  Database Structure
 
 The project creates a database named `churn_db` with a `customers` table.
 
@@ -44,7 +44,7 @@ The project creates a database named `churn_db` with a `customers` table.
 | Payment_Method  | Customer payment method           |
 | Churn           | Whether the customer has churned  |
 
-## 🔍 Key SQL Analysis
+##  Key SQL Analysis
 
 The project performs queries to:
 
@@ -62,11 +62,11 @@ The project performs queries to:
   * Support Calls ≥ 5
   * Usage Hours < 20
 
-## 📈 Example Insight
+##  Example Insight
 
 Customers with **low satisfaction, frequent support calls, and low usage** can be considered potential churn-risk customers. These factors can help businesses identify customers who may need additional support or retention strategies.
 
-## 🚀 How to Run
+##  How to Run
 
 1. Install **MySQL** or use a MySQL-compatible SQL environment.
 2. Open `Customer Churn Detection.sql`.
@@ -74,7 +74,7 @@ Customers with **low satisfaction, frequent support calls, and low usage** can b
 4. Load your customer data into the `customers` table.
 5. Run the analysis queries to explore customer churn patterns.
 
-## 📁 Project Files
+##  Project Files
 
 ```text
 Customer-Churn-Detection/
